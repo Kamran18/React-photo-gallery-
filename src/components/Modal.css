@@ -1,0 +1,25 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: rgba(15, 15, 15, 0.411);
+}
+
+.backdrop > img {
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+  object-fit: contain;
+  border: 3px solid whitesmoke;
+}
+
+@media (max-width: 850px) {
+  .backdrop > img {
+    max-width: 96vw;
+  }
+}

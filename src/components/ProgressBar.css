@@ -1,0 +1,10 @@
+.progressBar-wrap {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.progressBar {
+    height: 5px;
+    background-color: rgb(107, 224, 240);
+    border-radius: 4px;
+}
